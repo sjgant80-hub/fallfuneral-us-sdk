@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallfuneral-us-sdk",
+  "version": "1.0.0",
+  "description": "fallfuneral-us SDK · sovereign single-file library extracted from fallfuneral-us/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["fallfuneral-us", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallfuneral-us-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallfuneral-us-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
